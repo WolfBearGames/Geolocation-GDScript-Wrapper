@@ -1,8 +1,12 @@
 # Geolocation Plugin GDScript API Wrapper
 
-GDScript Wrapper Class for easier usage of the Godot Geolocation Plugin for Android () and iOS ()
+C# Wrapper Class for easier usage of the Godot Geolocation Plugin for Android (<https://github.com/WolfBearGames/Godot-GeolocationPlugin-Android>) and iOS (<https://github.com/WolfBearGames/Godot-GeolocationPlugin-iOS>)
 
 The GDScript wrapper is incomplete and does not support the heading functionality.
+
+## Usage Example (Example App)
+
+<https://github.com/WolfBearGames/GeolocationTestApp>
 
 ## Install Wrapper
 
