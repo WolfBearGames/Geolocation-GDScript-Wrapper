@@ -108,7 +108,7 @@ func _on_godot_android_permissions(permission:String, granted:bool):
 # methods
 # permissions
 func request_permissions():
-	if supports("request_permissions"):
+	if supports("request_permission"):
 		_geolocation_plugin.request_permission()
 		return
 	
