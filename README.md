@@ -24,7 +24,7 @@ var geolocation_api:GeolocationWrapper
 In the `_ready` method:
 
 ```gdscript
-geolocation_api= get_node("/root/GeolocationWrapper"
+geolocation_api= get_node("/root/GeolocationWrapper")
 
 if geolocation_api.supported:
     geolocation_api.connect("authorization_changed", self, "_on_authorization_changed")
